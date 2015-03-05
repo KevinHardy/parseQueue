@@ -46,7 +46,7 @@ app.factory('httpRequestInterceptor', function () {
 ````
 
 
-Parse is a great RESTful API. We'll use it to make 4 HTTP requests with AgularJS:
+Parse is a great RESTful API. We'll use it to make 4 HTTP requests with AngularJS:
 
 * GET - retrieve data
 * POST - create data
@@ -64,7 +64,7 @@ The first thing we need to do is create and link all of our files. The AngularJS
 
 We next want to ensure angular is working correctly, first connect your view and controller: 
 
-* Create your angular module and palce it in all of your JavaScript files. remember: var app = angular.module('parseQ', [])
+* Create your angular module and place it in all of your JavaScript files. remember: var app = angular.module('parseQ', [])
 * Place the ng-app into your index
 * Create your MainController and place it in your index using ng-controller
 
